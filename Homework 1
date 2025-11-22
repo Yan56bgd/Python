@@ -1,7 +1,0 @@
-while True:
-    try:
-        a = int(input())
-        b = int(input())
-    except:
-        raise ValueError("Not int type")
-    print(f"Sum of two numbers: {a+b}")
